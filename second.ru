@@ -6,4 +6,7 @@ class MyServer
 end
 
 def pretty_response
-  (Time.now.to _i % 2)
+  (Time.now.to _i % 2).zero?
+  ? ["<emHello</em>"] : ["<strong>Hello</strong>"]
+  end
+end
