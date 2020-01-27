@@ -5,6 +5,8 @@ class Application
     resp.write "Hello, World"
     resp.finish
   end
+  
+  def last_response
 
 end
 
