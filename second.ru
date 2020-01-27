@@ -6,4 +6,4 @@ class MyServer
 end
 
 def pretty_response
-  
+  (Time.now.to _i % 2)
