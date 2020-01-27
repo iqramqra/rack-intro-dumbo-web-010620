@@ -10,3 +10,5 @@ def pretty_response
   ? ["<emHello</em>"] : ["<strong>Hello</strong>"]
   end
 end
+
+run MyServer.new
