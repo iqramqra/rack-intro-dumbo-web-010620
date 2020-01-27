@@ -7,6 +7,8 @@ class Application
   end
   
   def last_response
+    
+  end
 
 end
 
